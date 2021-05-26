@@ -25,6 +25,9 @@
 	</style>
 </head>
 <body>
+<!-- Top Menu Fragments 시작 -->
+	<div th:insert="~{fragments/topmenu::topmenu}"></div>
+<!-- Top Menu Fragments 종료 -->
 
 <nav class="navbar navbar-default">
   	<div class="container-fluid">
@@ -63,6 +66,8 @@
     	</div>
   	</div>
 </nav>
+
+	<div th:insert="~{fragments/footer::footer}"></div>
 
 </body>
 </html>

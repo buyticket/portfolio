@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+</head>
+<div th:fragment="footer" class="footer">
+	<style>
+		.footer {	text-align: center; padding: 30px 50px; background-color: #D3D3D3;	}
+	    .footer li {position: relative; display: inline; padding: 0 7px 0 10px; white-space: nowrap;}
+	    .footer li:before {content: ''; width: 1px; height: 12px; background-color: #dbdbdb; position: absolute; left: 0; top: 2px;}
+	    .footer li:first-child:before {width: 0;}
+	    .footer address {padding-top: 15px;}
+	</style>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer">
+					<ul>
+						<li><a href="#">회원약관</a></li>
+						<li><a href="#">기업정보</a></li>
+						<li><a href="#">사이트 운영원칙</a></li>
+						<li><a href="#"><strong>개인정보취급방침</strong></a></li>
+						<li><a href="#">광고/임대문의</a></li>
+						<li><a href="#">기업정보</a></li>
+						<li><a href="#">고객센터</a></li>
+					</ul>
+					<address>
+						서울특별시 종로구 종로78 (종로2가, 미려빌딩 3,5,6층)<br/>
+						사업자등록번호 : 01-012-01234<br/>
+						T. 02-1234-1234<br/>
+						Copyright ©
+						<a href="#"><strong>EZEN STUDENTS</strong></a>
+						All Rights Reserved.
+					</address>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+</html>
